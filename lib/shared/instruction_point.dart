@@ -18,7 +18,7 @@ class InstructionPoint extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Icon(icon, color: const Color.fromARGB(255, 56, 248, 235)),
+        Icon(icon, color: const Color(0xFF04FCDC)),
         const SizedBox(height: 4.0), // Add space between icon and title
         Text(
           title,

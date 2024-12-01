@@ -9,7 +9,7 @@ class InstructionCard extends StatelessWidget {
     return Container(
       width: 300,
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 236, 236, 236),
+        color: const Color.fromARGB(255, 244, 242, 242),
         border: Border.all(
           color: Colors.black,
           width: 2.0,
