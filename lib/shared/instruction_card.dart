@@ -11,7 +11,7 @@ class InstructionCard extends StatelessWidget {
         color: const Color.fromARGB(255, 244, 242, 242),
         border: Border.all(
           color: Colors.black,
-          width: 2.0,
+          width: 1.0,
         ),
       ),
       padding: const EdgeInsets.all(10),

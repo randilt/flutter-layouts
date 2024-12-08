@@ -8,7 +8,7 @@ class InfoColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     // ignore: avoid_unnecessary_containers
     return Container(
-      margin: const EdgeInsets.all(10),
+      margin: const EdgeInsets.all(15),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -27,7 +27,7 @@ class InfoColumn extends StatelessWidget {
               child: Text(
                 'Strawberry Pavlova',
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
               ),
