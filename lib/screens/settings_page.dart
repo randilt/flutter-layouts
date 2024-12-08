@@ -26,6 +26,18 @@ class SettingsPage extends StatelessWidget {
                 ),
               ),
             ),
+            Container(
+              alignment: Alignment.centerLeft,
+              margin: const EdgeInsets.all(16),
+              child: const Text(
+                "Account settings",
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
+                  fontFamily: 'Rubik',
+                ),
+              ),
+            ),
             const NavButton(
               '',
               text: 'Edit profile',
