@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:layouts/shared/info_column.dart';
 import 'package:layouts/shared/instruction_card.dart';
 
 class Homepage3 extends StatelessWidget {
@@ -15,7 +16,7 @@ class Homepage3 extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Column(
-            children: [InstructionCard()],
+            children: [InfoColumn()],
           ),
         ],
       ),
