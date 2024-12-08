@@ -8,11 +8,12 @@ class InfoColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     // ignore: avoid_unnecessary_containers
     return Container(
+      margin: const EdgeInsets.all(10),
       child: Column(
+        mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
-            width: 300,
             padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
             margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
             decoration: BoxDecoration(
@@ -33,7 +34,6 @@ class InfoColumn extends StatelessWidget {
             ),
           ),
           Container(
-            width: 300,
             padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
             margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
             decoration: BoxDecoration(
@@ -56,7 +56,6 @@ class InfoColumn extends StatelessWidget {
             ),
           ),
           Container(
-            width: 300,
             padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
             margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
             decoration: BoxDecoration(

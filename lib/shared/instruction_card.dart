@@ -7,7 +7,6 @@ class InstructionCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 300,
       decoration: BoxDecoration(
         color: const Color.fromARGB(255, 244, 242, 242),
         border: Border.all(

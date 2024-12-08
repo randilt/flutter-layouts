@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:layouts/shared/image_column.dart';
 import 'package:layouts/shared/info_column.dart';
-import 'package:layouts/shared/instruction_card.dart';
 
 class Homepage3 extends StatelessWidget {
   const Homepage3({super.key});
@@ -15,8 +15,17 @@ class Homepage3 extends StatelessWidget {
       body: const Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
-            children: [InfoColumn()],
+          Row(
+            children: [
+              Expanded(
+                flex: 1,
+                child: InfoColumn(),
+              ),
+              Expanded(
+                flex: 2,
+                child: ImageColumn(),
+              ),
+            ],
           ),
         ],
       ),
