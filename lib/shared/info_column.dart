@@ -15,7 +15,6 @@ class InfoColumn extends StatelessWidget {
         children: [
           Container(
             padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
-            margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
             decoration: BoxDecoration(
               color: const Color.fromARGB(255, 244, 242, 242),
               border: Border.all(
@@ -33,9 +32,11 @@ class InfoColumn extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(
+            height: 15,
+          ),
           Container(
             padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
-            margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
             decoration: BoxDecoration(
               color: const Color.fromARGB(255, 244, 242, 242),
               border: Border.all(
@@ -55,9 +56,11 @@ class InfoColumn extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(
+            height: 15,
+          ),
           Container(
             padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
-            margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
             decoration: BoxDecoration(
               color: const Color.fromARGB(255, 244, 242, 242),
               border: Border.all(
@@ -85,6 +88,9 @@ class InfoColumn extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          const SizedBox(
+            height: 15,
           ),
           const InstructionCard(),
         ],
