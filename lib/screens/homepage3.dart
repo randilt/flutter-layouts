@@ -12,22 +12,31 @@ class Homepage3 extends StatelessWidget {
         title: const Text('Sri Lanka'),
         backgroundColor: Colors.blue,
       ),
-      body: const Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Row(
-            children: [
-              Expanded(
-                flex: 1,
-                child: InfoColumn(),
-              ),
-              Expanded(
-                flex: 2,
-                child: ImageColumn(),
-              ),
-            ],
-          ),
-        ],
+      body: LayoutBuilder(
+        builder: (BuildContext context, BoxConstraints constraints) {
+          if (constraints.maxWidth < 600) {
+            return const Column(
+              children: [
+                InfoColumn(),
+                SizedBox(height: 16),
+                ImageColumn(),
+              ],
+            );
+          } else {
+            return const Row(
+              children: [
+                Expanded(
+                  flex: 1,
+                  child: InfoColumn(),
+                ),
+                Expanded(
+                  flex: 2,
+                  child: ImageColumn(),
+                ),
+              ],
+            );
+          }
+        },
       ),
     );
   }
