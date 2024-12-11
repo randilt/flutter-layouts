@@ -35,19 +35,17 @@ class SettingsPage extends StatelessWidget {
                   fontSize: 18,
                   fontWeight: FontWeight.w400,
                   fontFamily: 'Rubik',
+                  color: Color(0xFFADADAD),
                 ),
               ),
             ),
             const NavButton(
-              '',
               text: 'Edit profile',
             ),
             const NavButton(
-              '',
               text: 'Change password',
             ),
             const NavButton(
-              '',
               text: 'Change username',
             ),
             Container(
@@ -58,6 +56,28 @@ class SettingsPage extends StatelessWidget {
                   height: 1,
                 ),
               ),
+            ),
+            Container(
+              alignment: Alignment.centerLeft,
+              margin: const EdgeInsets.all(16),
+              child: const Text(
+                "More",
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w400,
+                  fontFamily: 'Rubik',
+                  color: Color(0xFFADADAD),
+                ),
+              ),
+            ),
+            const NavButton(
+              text: 'Push Notifications',
+            ),
+            const NavButton(
+              text: 'About us',
+            ),
+            const NavButton(
+              text: 'Privacy Policy',
             ),
           ],
         ));

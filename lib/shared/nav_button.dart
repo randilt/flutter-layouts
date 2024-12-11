@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class NavButton extends StatelessWidget {
   final String text;
-  const NavButton(String s, {super.key, required this.text});
+  const NavButton({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -17,6 +17,7 @@ class NavButton extends StatelessWidget {
                 fontSize: 18,
                 fontWeight: FontWeight.w400,
                 fontFamily: 'Rubik',
+                color: Color.fromARGB(255, 0, 0, 0),
               ),
             ),
             const Icon(Icons.arrow_forward_ios_rounded)
