@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:layouts/screens/my_profile_page.dart';
+// import 'package:layouts/screens/my_profile_page.dart';
+import 'package:layouts/screens/store_page.dart';
 // import 'package:layouts/screens/homepage3.dart';
 // import 'package:layouts/screens/settings_page.dart';
 // import 'package:layouts/screens/myhomepage.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyProfilePage(),
+      home: const StorePage(),
     );
   }
 }
